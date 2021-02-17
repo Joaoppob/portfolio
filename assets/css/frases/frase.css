@@ -1,7 +1,6 @@
 .frase {
   margin: 0 auto 0 auto;
   width: 60%;
-  height: 70vh;
 }
 .frase__background {
   background-color: #070707;
@@ -45,6 +44,11 @@
   .frase{
     width: 50%;
     height: 50vh;
-    margin-top: 150px;
+    margin-top: 250px;
+  }
+}
+@media screen and (min-width: 1466px){
+  .frase{
+    height: 70vh;
   }
 }
