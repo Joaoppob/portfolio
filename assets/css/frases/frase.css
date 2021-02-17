@@ -1,0 +1,50 @@
+.frase {
+  margin: 0 auto 0 auto;
+  width: 60%;
+  height: 70vh;
+}
+.frase__background {
+  background-color: #070707;
+}
+.frase__container {
+  display: grid;
+  grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+  grid-template-rows: auto;
+  width: 100%;
+}
+.frase__titulo {
+  font-size: 140px;
+  color: #ffffff;
+}
+.frase__subtitulo {
+  grid-column: 6/9;
+  grid-row: 3/3;
+  font-size: 40px;
+  line-height: 45px;
+  color: #ffffff;
+  margin-top: 16px;
+}
+.frase__1 {
+  grid-row: 1/1;
+  margin-top: 50%;
+}
+.frase__2 {
+  grid-row: 2/2;
+}
+.frase__3 {
+  grid-row: 3/3;
+}
+
+@media screen and (max-width: 1466px){
+  .frase__titulo{
+    font-size: 60px;
+  } 
+  .frase__subtitulo{
+    font-size: 16px;
+  }
+  .frase{
+    width: 50%;
+    height: 50vh;
+    margin-top: 150px;
+  }
+}

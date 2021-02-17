@@ -1,0 +1,9 @@
+.footer__container {
+  background-color: #070707;
+  padding: 10px;
+  border-top: solid 2px #fcc538;
+}
+.footer__titulo {
+  color: #ffffff;
+  text-align: center;
+}

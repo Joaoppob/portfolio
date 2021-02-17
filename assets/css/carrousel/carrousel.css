@@ -1,0 +1,45 @@
+.carrousel {
+  background: #fcc538;
+  margin-top: 100px;
+}
+.carrousel__container {
+  margin: 0 auto 0 auto;
+  width: 60%;
+}
+.carrousel__titulo {
+  text-align: center;
+  font-size: 22px;
+}
+.carrousel__img {
+  width: 80%;
+  height: 650px;
+  margin: 0 10% 0 10%;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.w {
+  border: solid 5px black;
+}
+.b {
+  border: solid 5px white;
+}
+.carrousel__fig {
+  background-color: black;
+  color: white;
+  font-family: 'Courier Prime', monospace;
+  width: 80%;
+  margin: 0 auto 0 auto;
+  padding: 10px;
+}
+
+@media screen and (max-width: 1466px){
+  .carrousel__img {
+    height: 400px;
+  }
+  .carrousel{
+    margin-top: 100px;
+    height: 50vh;
+  }
+
+}

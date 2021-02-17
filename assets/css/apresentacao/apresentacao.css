@@ -1,0 +1,45 @@
+.apresentacao {
+  margin: 0 auto 0 auto;
+  width: 60%;
+}
+.apresentacao__container {
+  display: grid;
+  grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+  width: 100%;
+  margin-top: 12%;
+  padding: 20px;
+}
+.apresentacao__titulo {
+  grid-column: 1/5;
+  font-size: 140px;
+}
+.apresentacao__subtitulo {
+  grid-column: 1/5;
+  font-size: 60px;
+}
+
+@media screen and (max-width: 778px) {
+  .apresentacao__titulo {
+    grid-column: 1/5;
+    font-size: 32px;
+  }
+  .apresentacao__subtitulo {
+    grid-column: 1/5;
+    font-size: 16px;
+  }
+  .apresentacao {
+    height: 40vh;
+  }
+}
+
+@media screen and (max-width: 1466px){
+  .apresentacao__titulo{
+    font-size: 70px;
+  }
+  .apresentacao__subtitulo{
+    font-size: 30px;
+  }
+  .apresentacao{
+    height: 30vh;
+  }
+}

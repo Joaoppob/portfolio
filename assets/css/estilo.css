@@ -1,0 +1,24 @@
+.background__principal {
+  background: linear-gradient(180deg, #f4d45c 14%, #fcc538 36%, #fcc538 77%), #f3d35b;
+  background-repeat: no-repeat;
+}
+ul {
+  list-style: none;
+}
+.main__container {
+  width: 100%;
+}
+h1 {
+  font-family: 'Bebas Neue', cursive;
+  margin: 0;
+}
+h3 {
+  font-family: 'Courier Prime', monospace;
+  margin: 0;
+}
+
+@media screen and (max-width: 1466px){
+  .background__principal {
+    background: #fcc538;
+  }
+}

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/must/reset.css" />
+    <link rel="stylesheet" href="./assets/css/estilo.css" />
+    <link rel="stylesheet" href="./assets/css/nav/nav.css" />
+    <link rel="stylesheet" href="./assets/css/apresentacao/apresentacao.css" />
+    <link rel="stylesheet" href="./assets/css/carrousel/glide.core.min.css" />
+    <link rel="stylesheet" href="./assets/css/carrousel/glide.theme.min.css" />
+    <link rel="stylesheet" href="./assets/css/carrousel/carrousel.css" />
+    <link rel="stylesheet" href="./assets/css/frases/aos.css" />
+    <link rel="stylesheet" href="./assets/css/frases/frase.css" />
+    <link rel="stylesheet" href="./assets/css/footer/footer.css" />
+    <title>João Barros</title>
+  </head>
+  <body class="background__principal">
+    <input type="checkbox" id="menu__hamburguer" />
+    <label for="menu__hamburguer">
+      <div class="menu">
+        <span class="hamburguer"></span>
+      </div>
+    </label>
+    <div class="nav">
+      <nav class="nav__bar">
+        <ul class="nav__lista">
+          <li><a class="nav__item" href="index.html">Home</a></li>
+          <li><a class="nav__item" href="about.html">Sobre Mim</a></li>
+          <li>
+            <a
+              class="nav__item"
+              href="https://www.linkedin.com/in/jo%C3%A3o-pedro-barros-99203a1a0/"
+              >Linkedin</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <main class="main__container">
+      <div class="apresentacao">
+        <article class="apresentacao__container">
+          <h1 class="apresentacao__titulo">João Pedro Barros</h1>
+          <h3 class="apresentacao__subtitulo">Designer UX, UI e Front-end</h3>
+        </article>
+      </div>
+      <div class="carrousel">
+        <article class="carrousel__container">
+          <h3 class="carrousel__titulo">Projetos:</h3>
+          <div class="glide">
+            <div class="glide__track" data-glide-el="track">
+              <ul class="glide__slides">
+                <li class="glide__slide">
+                  <a href="https://joaoppob.github.io/typing-fast/"
+                    ><img
+                      class="carrousel__img w"
+                      src="assets/fotos/fasttyping.png"
+                      alt=""
+                    />
+                  </a>
+                  <figcaption class="carrousel__fig">
+                    No Typing Fast eu utilizei Jquery para fazer um jogo de
+                    teste de digitação.
+                  </figcaption>
+                </li>
+                <li class="glide__slide">
+                  <a href="https://joaoppob.github.io/Pongo/"
+                    ><img
+                      class="carrousel__img b"
+                      src="assets/fotos/pongo.png"
+                      alt=""
+                    />
+                  </a>
+                  <figcaption class="carrousel__fig">
+                    Um jogo de pong inspirado nos jogos antigos utilizando
+                    apenas javascript puro.
+                  </figcaption>
+                </li>
+                <li class="glide__slide">
+                  <a href="https://joaoppob.github.io/portvue/"
+                    ><img
+                      class="carrousel__img w"
+                      src="assets/fotos/vuejs.png"
+                      alt=""
+                    />
+                  </a>
+                  <figcaption class="carrousel__fig">
+                    Site de portfólio basico apenas de estudo em Vue JS.
+                  </figcaption>
+                </li>
+                <li class="glide__slide">
+                  <a href=" https://joaoppob.github.io/formvalidation/"
+                    ><img
+                      class="carrousel__img w"
+                      src="assets/fotos/form.png"
+                      alt=""
+                    />
+                  </a>
+                  <figcaption class="carrousel__fig">
+                    Formulario validado em HTML e JavaScript com busca na api do
+                    cep.
+                  </figcaption>
+                </li>
+              </ul>
+            </div>
+            <div class="glide__arrows" data-glide-el="controls">
+              <button
+                class="glide__arrow glide__arrow--left"
+                data-glide-dir="<"
+              >
+                <
+              </button>
+              <button
+                class="glide__arrow glide__arrow--right"
+                data-glide-dir=">"
+              >
+                >
+              </button>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="frase__background">
+        <div class="frase">
+          <article class="frase__container">
+            <h1 class="frase__titulo frase__1" data-aos="fade-right">Design</h1>
+            <h1 class="frase__titulo frase__2" data-aos="fade-right">Estudo</h1>
+            <h1 class="frase__titulo frase__3" data-aos="fade-right">
+              Empenho
+            </h1>
+            <h3 data-aos="fade-left" class="frase__subtitulo">
+              São as 3 coisas pelas quais sou dedicado.
+            </h3>
+          </article>
+        </div>
+      </div>
+    </main>
+    <footer class="footer__container">
+      <h1 class="footer__titulo">todos os direitos reservados.</h1>
+    </footer>
+    <script src="assets/js/glide.min.js"></script>
+    <script src="./assets/js/aos.js"></script>
+    <script>
+      new Glide(".glide", {
+        type: "carousel",
+        startAt: 0,
+        perView: 1,
+        focusAt: "center",
+        autoplay: 5000,
+        hoverpause: false,
+        animationDuration: 1000,
+      }).mount();
+
+      AOS.init();
+    </script>
+    <script type="module" src="./assets/js/index.js"></script>
+  </body>
+</html>
