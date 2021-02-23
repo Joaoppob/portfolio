@@ -8,7 +8,7 @@
 }
 .carrousel__titulo {
   text-align: center;
-  font-size: 48px;
+  font-size: 32px;
 }
 .carrousel__img {
   width: 80%;
@@ -27,17 +27,17 @@
 .carrousel__fig {
   background-color: black;
   color: white;
-  font-family: 'Courier Prime', monospace;
+  font-family: "Courier Prime", monospace;
   width: 80%;
   margin: 0 auto 0 auto;
   padding: 10px;
 }
 
-@media screen and (max-width: 1466px){
+@media screen and (max-width: 1466px) {
   .carrousel__img {
     height: 400px;
   }
-  .carrousel{
+  .carrousel {
     margin-top: 100px;
     height: 50vh;
   }
